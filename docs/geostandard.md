@@ -103,7 +103,7 @@ structured parts rather than keeping a string, and the wells module only ever se
 
 ### 6.3 Symbols (3.4): shape first
 
-**The system is compositional.** A well is a base circle, a layer per fluid (oil, gas, condensate, each proven, minor or trace; condensate has no trace form), a technical-status layer and a function layer. The standard's combination tables are a selection and say so ("other combinations may be made by following the same principle"), so SubScout stores layers and composes them, and the 50 selected examples are tests. Implemented in SubScout PR [#1](https://github.com/AdmcCarthy/kit-subscout/pull/1).
+**The system is compositional.** A well is a base circle, a layer per fluid (oil, gas, condensate, each proven, minor or trace; condensate has no trace form), a technical-status layer and a function layer. The standard's combination tables are a selection and say so ("other combinations may be made by following the same principle"), so SubScout stores layers and composes them, and the 50 selected examples are tests. Implemented in SubScout PR [#1](https://github.com/AdmcCarthy/core-subscout/pull/1).
 
 Shapes below are described from the rendered pages of the standard; check each against the PDF when drawing it.
 

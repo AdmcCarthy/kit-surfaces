@@ -7,7 +7,7 @@ Owner: Adam McCarthy. Plan: docs/plan.md.
 
 Voice and structure of written work (README, docs) follow Idiom's CORE.md and house style: British English, impersonal, one creative headline then plain varied headings, a section ends on its last point. The line above is harmless when the file is absent (CI).
 
-- Follow SubScout's styleguide and tokens (github.com/AdmcCarthy/kit-subscout) and Relief's palette and smoothing (github.com/AdmcCarthy/kit-relief). No raw hex in pages: use tokens.
+- Follow SubScout's styleguide and tokens (github.com/AdmcCarthy/core-subscout) and Relief's palette and smoothing (github.com/AdmcCarthy/kit-relief). No raw hex in pages: use tokens.
 - Volve terms: attribute Equinor and the former licence partners, link the terms, never sell, never imply endorsement, never present data misleadingly. Every map shows a "Generalised for display" badge with smoothing parameters and deviation.
 - CRS of source: ED50 / UTM 31N (EPSG:23031). Horizon rows: IL, XL, UTMX, UTMY, Z.
 - Ship quantised grids; contour in the browser (d3-contour). Plain ES modules + CSS, D3 pinned from cdnjs, no Node build.

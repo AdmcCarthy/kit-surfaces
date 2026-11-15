@@ -102,7 +102,7 @@ asserted, bounds, draw into a shared view, legend, facts, probe; an empty layer;
 
 ### What SubScout gets
 
-Opened as [SubScout PR #1](https://github.com/AdmcCarthy/kit-subscout/pull/1) (2026-11-08, v0.6.0), with your go-ahead. What it contains, as built:
+Opened as [SubScout PR #1](https://github.com/AdmcCarthy/core-subscout/pull/1) (2026-11-08, v0.6.0), with your go-ahead. What it contains, as built:
 
 - `styleguide/wellbores.md`: the rules (shape first, colour optional, scale-dependent codes, legend always lists the codes in use, planned versus actual).
 - `src/subscout/tokens/symbols.toml`: the vocabulary (technical status, hydrocarbon status, function, class, installation type), a shape per symbol as a path in a unit box, default size at each scale
@@ -126,7 +126,7 @@ As built the runtime is `wellSpec(well)` (compose layers from a record), `symbol
 0. **Done (2026-11-08): prerequisites.** Picks are converted to ETRS89 in the build (`scripts/crs.py`) and the grids rebuilt, manifests say EPSG:25831 and record the transformation. The horizon depth datum is verified against the well picks' TVDSS: mean sea level, positive down ([datum-check.md](datum-check.md)).
 1. **Done (2026-11-08): refactor.** The layout above, the contract, `host/view.js` (one view, `compose`), and the shared contract test in `scripts/smoke.py`. The pages draw as before.
 2. **Done (2026-11-08): faults as a vector layer**, from the Volve sticks (1,356) and fault polygons (78 top, 72 base Hugin), black via `--ss-text`, plain lines because the files carry names only. Normal-fault ticks are implemented and shown on the synthetic faults, whose type and downthrown side are known.
-3. **SubScout symbols spec**: open as [SubScout PR #1](https://github.com/AdmcCarthy/kit-subscout/pull/1): style guide page, `symbols.toml`, generator, runtime, review sheet, tests, CI. Merge, then vendor `symbols.js` and `symbols-data.js` here with a NOTICE and the commit hash.
+3. **SubScout symbols spec**: open as [SubScout PR #1](https://github.com/AdmcCarthy/core-subscout/pull/1): style guide page, `symbols.toml`, generator, runtime, review sheet, tests, CI. Merge, then vendor `symbols.js` and `symbols-data.js` here with a NOTICE and the commit hash.
 4. **Wells**: the Volve adapter (well picks, perforations; names parsed per 3.2), the Sodir adapter for status and fluid, the well layer using SubScout symbols; wells over a surface, with the datum check.
 5. **Title box, scale bar and location map** as host components, fields exactly per the Geostandard.
 6. **Optional `geostandard` ramp and hydrocarbon colour set**; H and L marks; hachured depressions on isochores.
