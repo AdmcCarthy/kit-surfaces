@@ -1,5 +1,9 @@
 # Volve, smoothed to be read
 
+[![Pages](https://github.com/AdmcCarthy/kit-surfaces/actions/workflows/pages.yml/badge.svg)](https://github.com/AdmcCarthy/kit-surfaces/actions/workflows/pages.yml)
+![Python](https://img.shields.io/badge/python-%E2%89%A53.12-lightgrey)
+[![Licence](https://img.shields.io/badge/licence-MIT%20with%20acknowledgement-lightgrey)](LICENSE)
+
 Seismic horizons from the Volve field drawn as shaded contour maps in the browser, with the smoothing declared on every map. The grids are generalised for display: edge-preserving smoothing keeps the fault steps and removes the noise that gets in the way of reading a structure. The result is an interpretation made legible, not a survey-grade surface.
 
 ## What it draws
