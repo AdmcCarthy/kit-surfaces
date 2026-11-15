@@ -99,7 +99,7 @@ From **SubScout** (`styleguide/`, `src/subscout/tokens/colour.toml`) and **Relie
 ## 6. Repo layout
 
 ```
-volve-surfaces/
+kit-surfaces/
   README.md  CLAUDE.md  LICENSE (MIT, code)  DATA-LICENCE.md (Volve terms + attribution)
   pyproject.toml (uv, Python >= 3.12: numpy, scipy, pyproj, pandas, contourpy, pytest, ruff)
   docs/        plan.md  sources.md  generalisation.md

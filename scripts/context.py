@@ -88,7 +88,7 @@ def build(wildcat_data: Path, relief: Path) -> dict:
         "extent": [[round(x), round(y)] for x, y in extent],
         "fields": {"type": "FeatureCollection", "features": feats},
         "attribution": (
-            "Base map: Relief (github.com/AdmcCarthy/Relief), Copernicus DEM GLO-90 © DLR e.V. 2010-2014 and © Airbus 2014-2018, "
+            "Base map: Relief (github.com/AdmcCarthy/kit-relief), Copernicus DEM GLO-90 © DLR e.V. 2010-2014 and © Airbus 2014-2018, "
             "provided under COPERNICUS by the European Union and ESA; EMODnet Bathymetry Consortium (2024), EMODnet Digital Bathymetry (DTM). "
             "Field outlines: Sodir (Norwegian Offshore Directorate), NLOD 2.0."
         ),
