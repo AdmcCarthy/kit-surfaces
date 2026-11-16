@@ -1,4 +1,4 @@
-`tokens.css` and `base.css` are copied unchanged from SubScout (https://github.com/AdmcCarthy/SubScout, MIT, commit 685eb40cf9519134ec14308db4e33b4f651baf8f,
+`tokens.css` and `base.css` are copied unchanged from SubScout (https://github.com/AdmcCarthy/core-subscout, MIT, commit 685eb40cf9519134ec14308db4e33b4f651baf8f,
 `src/subscout/runtime/css/`). `tokens.css` is generated from `colour.toml`; do not edit it here. Re-copy after changing SubScout.
 
 The palette method (lightness ladder, gaussian chroma, step roles, data-palette algorithms) is ported by SubScout from the Equinor Design System colour

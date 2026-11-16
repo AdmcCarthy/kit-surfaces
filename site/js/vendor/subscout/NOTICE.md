@@ -1,4 +1,4 @@
-`symbols.js`, `symbols-data.js` and `symbols.json` are copied unchanged from SubScout (https://github.com/AdmcCarthy/SubScout, MIT),
+`symbols.js`, `symbols-data.js` and `symbols.json` are copied unchanged from SubScout (https://github.com/AdmcCarthy/core-subscout, MIT),
 `src/subscout/runtime/js/`, at commit 128f042cb2832bbfd9ce2d39fe11dc25f38f3840 (v0.6.0, pull request #1). `symbols-data.js` and `symbols.json` are generated from
 `src/subscout/tokens/symbols.toml`; do not edit them here. Re-copy after changing SubScout.
 
