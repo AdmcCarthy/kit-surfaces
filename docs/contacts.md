@@ -1,7 +1,7 @@
 # Hydrocarbon contacts
 
 The classical structure-map view: the part of a structure that holds each fluid, by contact, **per fault segment**, with the uncertainty shown. Built 2026-11-08 from the
-Volve reports, the Sodir Geostandard, web sources and the `ep_geoscience_analytics` knowledge base (read only). **Work in progress and paused (2026-11-08), not part of the base case.** Try it: the viewer's collapsed *Work in progress* group, and `wip.html`.
+Volve reports, the Sodir Geostandard, web sources and the `ep-geoscience-analytics` knowledge base (read only). **Work in progress and paused (2026-11-08), not part of the base case.** Try it: the viewer's collapsed *Work in progress* group, and `wip.html`.
 
 ## 1. What was built
 
@@ -27,7 +27,7 @@ Volve reports, the Sodir Geostandard, web sources and the `ep_geoscience_analyti
 
 FWL (free water level, zero capillary pressure), OWC (oil-water contact, above the FWL by the entry-pressure height), GOC (set by the volume of gas, not capillarity), GWC, ODT and GDT
 (oil or gas *down to*: a minimum, never a contact), spill point. Sources: [AAPG wiki](https://wiki.aapg.org/Special:MobileDiff/5865...27130), [AAPG wiki](https://wiki.aapg.org/Special:MobileDiff/5873),
-`ep_geoscience_analytics/docs/pressure.md` and `config/pressure.yaml`. A different contact on the two sides of a fault shows the fault is a barrier
+`ep-geoscience-analytics/docs/pressure.md` and `config/pressure.yaml`. A different contact on the two sides of a fault shows the fault is a barrier
 ([AAPG wiki](https://wiki.aapg.org/Special:MobileDiff/6167)).
 
 ## 4. What the Volve documents say, and what we did with it
