@@ -39,7 +39,7 @@ Attribution line, to use everywhere:
   data. Datum shift ED50 to ETRS89 at Volve is about -90 m east and -215 m north (measured with pyproj, accuracy 2 m; an earlier note here said about 100 m, which was wrong). The canonical CRS is now ETRS89 / UTM 31N (EPSG:25831): see [modules.md](modules.md).
 - **Faults**: fixed-width fault sticks (x, y, TWT, stick position 1/2/3, name). **Fault polygons**: Top and Base Hugin
   (78 and 71 polygons). **Wells**: picks (with repeat observations) and perforations.
-- Not needed now: seismic cubes, well logs, production, WITSML (kept for later linking to the `ep-geoscience-analytics` work).
+- Not needed now: seismic cubes, well logs, production, WITSML (kept for later linking to the private data engine).
 
 Data checks to run first (cheap, before any design): node count, regularity of the IL/XL grid, holes and null values
 (look for 99999 or -999 sentinels), Z range per horizon, whether faults offset surfaces (they will, so contours must
