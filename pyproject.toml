@@ -1,5 +1,5 @@
 [project]
-name = "volve-surfaces"
+name = "kit-surfaces"
 version = "0.1.0"
 description = "Volve geophysical interpretations as smoothed, shaded contour maps in the browser (D3)"
 requires-python = ">=3.12"
